@@ -24998,8 +24998,13 @@ a:hover .text-inherit {
 
 .logo-text {
     font-size: 12px;
+    background: -webkit-linear-gradient(#54A2B1, #246CA9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
+.tag-line{
+  font-size: 10px;
+}
 @media (min-width: 576px) {
     .logo-text {
         font-size: 22px;
